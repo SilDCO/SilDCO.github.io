@@ -1,14 +1,30 @@
 
-nav.theme-dark, nav.theme-dark ul.links-wrapper.active { background-color: #0f172a }
+nav.theme-dark, nav.theme-dark ul.links-wrapper.active { background-color: #16161a }
 
-header.theme-dark   { background-color: #0f172a }
+header.theme-dark   { background-color: #16161a }
 
-header.theme-dark  h1 { color: var(--sky-400); }
+header.theme-dark  h1 { color: #d68624 }
 
-section.theme-dark   { background-color: #0f172a }
+section.theme-dark   { background-color: #16161a }
 
-footer.theme-dark   { background-color: #0f172a }
-
-
+footer.theme-dark   { background-color: #16161a }
 
 header .col-text h2, .col-1 > h3 { line-height: 1.8 }
+
+
+.gradient-name {
+    
+    font-family: 'Arbutus Slab', sans-serif; 
+    font-weight: 700;
+    background: linear-gradient(90deg, #ff0080, #ff8c00, #40e0d0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+.arbutus-slab-regular {
+  font-family: "Arbutus Slab", serif;
+  font-weight: 400;
+  font-style: normal;
+}
